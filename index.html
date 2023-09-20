@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Timnas Indonesia dalam Dunia Virtual</title>
+        <link rel="stylesheet" type="text/css" href="files/css/styles.css">
+        
+        <!-- FONT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="judul">
+                <h1>Football Manager</h1>
+                <p>
+                    Simulasi Tim Nasional Sepak Bola Indonesia dalam 25 Tahun ke Depan pada Game Football Manager 2023
+                </p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#profil">Profil</a></li>
+                    <li><a href="#pemain">Pemain</a></li>
+                    <li><a href="#prestasi">Prestasi</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <!-- KONTEN UTAMA -->
+            <div id="content">
+                <article id="profil" class="container">
+                    <h2>Profil</h2>
+                    <img src="files/images/profil.jpg" alt="Profil Timnas" class="gambar modal-hover-opacity" onclick="onClick(this)" />
+                    <p>
+                        Pada simulasi 25 tahun game Football Manager 2023 ini, tim nasional Indonesia berada di peringkat ke-58 dunia.
+                    </p>
+                </article>
+            
+                <article id="pemain" class="container">
+                    <h2>Daftar Pemain</h2>
+                    <img src="files/images/timnas.jpg" alt="Daftar Pemain Timnas" class="gambar modal-hover-opacity" onclick="onClick(this)"/>
+                    <p>
+                        Pemain yang membela tim nasional Indonesia berasal dari berbagai klub di dunia. Hanya ada 3 klub dari Liga Indonesia yang mengirimkan pemainnya ke timnas, yaitu Persebaya Surabaya, Persib Bandung, dan Persipura jayapura.
+                    </p>
+                    
+                    <section>
+                        <h3>Pemain Terbaik</h3>
+                        <img src="files/images/best.jpg" alt="Pemain Terbaik Timnas" class="gambar modal-hover-opacity" onclick="onClick(this)"/>
+                        <p>
+                            Heri Suryana menjadi pemain Indonesia terbaik di game Football Manager 2023 pada tahun 2047. Pemain yang bermain di klub Arab Saudi Al-Hilal ini mencetak 2 gol dari 78 penampilan bersama tin nasional.
+                        </p>
+                    </section>
+                </article>
+            
+                <article id="prestasi" class="container">
+                    <h2>Prestasi</h2>
+                    <p>
+                        Di dunia nyata, Indonesia tidak pernah menjadi juara di wilayah Asia Tenggara maupun di Asia. Tapi di game Football Manager 2023 ini, Indonesia berhasil menjuarai AFF Cup dan AFC Asian Cup.
+                    </p>
+                    
+                    <section>
+                        <h3>AFF Cup</h3>
+                        <img src="files/images/aff_cup.jpg" alt="AFF Cup" class="gambar modal-hover-opacity" onclick="onClick(this)"/>
+                        <p>
+                            Dalam 14 edisi terahkir AFF Cup selalu mempertemukan Indonesia dengan Thailand di partai final. Akhirnya Indonesia berhasil juara AFF Cup untuk pertama kalinya pada tahun 2035.
+                        </p>
+                    </section>
+                
+                    <section>
+                        <h3>AFC Asian Cup</h3>
+                        <img src="files/images/afc_cup.jpg" alt="AFC Asian Cup" class="gambar modal-hover-opacity" onclick="onClick(this)"/>
+                        <p>
+                            Pada tahun 2047, Indonesia berhasil juara AFC Asian Cup 2047 dengan mengalahkan Korea Selatan di partai final yang digelar di Japan National Stadium Tokyo, Jepang.
+                        </p>
+                    </section>
+                </article>
+            </div>
+
+            <!-- LOGO -->
+            <aside>
+                <article class="logo container">
+                    <header>
+                        <h2>FM2023</h2>
+                        <img src="files/images/logo.png" alt="Icon Football Manager 2023">
+                        <!-- ICON -->
+                        <div class="icon">
+                            <img src="files/icons/icons8-steam-48.png" alt="Steam Logo">
+                            <img src="files/icons/icons8-epic-games-48.png" alt="Epic Games Logo">
+                            <img src="files/icons/icons8-nintendo-switch-logo-48.png" alt="Nintendo Switch Logo">
+                            <img src="files/icons/icons8-playstation-48.png" alt="PLayStation Logo">
+                            <img src="files/icons/icons8-windows-48.png" alt="Microsoft Windows Logo">
+                            <img src="files/icons/icons8-xbox-48.png" alt="Xbox Logo">
+                        </div>
+                    </header>
+                </article>
+            </aside>
+        </main>
+
+        <!-- MODAL IMAGE -->
+        <div id="modal01" class="modal" onclick="this.style.display='none'">
+            <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <div class="modal-content">
+              <img id="img01" style="max-width:100%">
+            </div>
+            <div id="caption"></div>
+        </div>
+
+        <footer>
+            <p>&copy; 2023 Manajer Virtual | Kurnianto</p>
+        </footer>
+
+        <script src="./files/js/script.js"></script>
+    </body>
+</html>
